@@ -1,0 +1,13 @@
+http://localhost:8000
+
+POST /payslip
+
+{
+  "amount": 3300,
+  "extra": 1000,
+  "contract": {
+    "starts_on": 1553869190,
+    "ends_on": 1557890190
+  },
+  "complete": true
+}
